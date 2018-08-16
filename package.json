@@ -1,14 +1,14 @@
 {
-  "name": "lirc_node",
-  "version": "0.0.4",
-  "description": "Control LIRC from Node",
+  "name": "lircv0.9.4_node",
+  "version": "1.0.0",
+  "description": "Control LIRCv0.9.4 and up from Node, forked from lirc_node. irsend list's output format changed, breaking the original lirc_node. This is a quick and dirty fix, breaking compatibility with previous versions of LIRC.",
   "main": "lib/lirc_node.js",
   "scripts": {
     "test": "NODE_ENV=test mocha --require should --require test/common.js --reporter dot --timeout 5000 test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexbain/lirc_node.git"
+    "url": "git://github.com/juanpescador/lirc_node.git"
   },
   "keywords": [
     "lirc"
@@ -28,6 +28,10 @@
     },
     {
       "name": "Wouter Verweirder",
+      "email": ""
+    },
+    {
+      "name": "John Fisher",
       "email": ""
     }
   ]

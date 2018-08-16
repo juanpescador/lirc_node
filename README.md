@@ -1,5 +1,9 @@
-lirc_node
+lircv0.9.4_node
 =========
+
+This is a fork of [``lirc_node``](https://github.com/alexbain/lirc_node) by Alex
+Bain to accommodate breaking changes in LIRCv0.9.4. ``irsend list``'s output
+format changed in this version, breaking the original ``lirc_node``.
 
 ``lirc_node`` is an npm module that acts as a very thin shim between
 [LIRC](http://lirc.org) and Node.
